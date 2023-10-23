@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      '//HTML-теги - декларативный стиль всегда'
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1>{new Date().getFullYear()}</h1>'/* добавление даты - императивный
+        стиль*/'
       </header>
     </div>
   );
